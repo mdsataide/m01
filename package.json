@@ -5,7 +5,13 @@
   "repository": "git@github.com:mdsataide/m01.git",
   "author": "mdsataide <mdsataide@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
